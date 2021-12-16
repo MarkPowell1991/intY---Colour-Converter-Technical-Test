@@ -1,0 +1,13 @@
+C:\Users\damdi\source\repos\Technical Requirement - intY\Technical Requirement - intY\obj\Debug\netcoreapp3.1\Technical Requirement - intY.csproj.AssemblyReference.cache
+C:\Users\damdi\source\repos\Technical Requirement - intY\Technical Requirement - intY\obj\Debug\netcoreapp3.1\Technical Requirement - intY.AssemblyInfoInputs.cache
+C:\Users\damdi\source\repos\Technical Requirement - intY\Technical Requirement - intY\obj\Debug\netcoreapp3.1\Technical Requirement - intY.AssemblyInfo.cs
+C:\Users\damdi\source\repos\Technical Requirement - intY\Technical Requirement - intY\obj\Debug\netcoreapp3.1\Technical Requirement - intY.csproj.CoreCompileInputs.cache
+C:\Users\damdi\source\repos\Technical Requirement - intY\Technical Requirement - intY\bin\Debug\netcoreapp3.1\Technical Requirement - intY.exe
+C:\Users\damdi\source\repos\Technical Requirement - intY\Technical Requirement - intY\bin\Debug\netcoreapp3.1\Technical Requirement - intY.deps.json
+C:\Users\damdi\source\repos\Technical Requirement - intY\Technical Requirement - intY\bin\Debug\netcoreapp3.1\Technical Requirement - intY.runtimeconfig.json
+C:\Users\damdi\source\repos\Technical Requirement - intY\Technical Requirement - intY\bin\Debug\netcoreapp3.1\Technical Requirement - intY.runtimeconfig.dev.json
+C:\Users\damdi\source\repos\Technical Requirement - intY\Technical Requirement - intY\bin\Debug\netcoreapp3.1\Technical Requirement - intY.dll
+C:\Users\damdi\source\repos\Technical Requirement - intY\Technical Requirement - intY\bin\Debug\netcoreapp3.1\Technical Requirement - intY.pdb
+C:\Users\damdi\source\repos\Technical Requirement - intY\Technical Requirement - intY\obj\Debug\netcoreapp3.1\Technical Requirement - intY.dll
+C:\Users\damdi\source\repos\Technical Requirement - intY\Technical Requirement - intY\obj\Debug\netcoreapp3.1\Technical Requirement - intY.pdb
+C:\Users\damdi\source\repos\Technical Requirement - intY\Technical Requirement - intY\obj\Debug\netcoreapp3.1\Technical Requirement - intY.genruntimeconfig.cache

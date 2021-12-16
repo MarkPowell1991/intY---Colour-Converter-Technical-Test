@@ -1,0 +1,3 @@
+The RGB value for red is rgb(255,0,0)  : 16/12/2021 21:10:15
+The RGB value for red is rgb(255,0,0)  : 16/12/2021 21:20:28
+The RGB value for red is rgb(255,0,0)  : 16/12/2021 21:23:48
