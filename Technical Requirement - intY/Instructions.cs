@@ -12,6 +12,8 @@ namespace Technical_Requirement___intY
         private string Team = "rgb";
         List<Colour> colours = new List<Colour>();
         Colour col = new Colour();
+        public string terminalResult = "";
+        bool valid = false;
 
         //validation:
         //input must be one of the given colours, else return error code
@@ -27,42 +29,58 @@ namespace Technical_Requirement___intY
             }
         }
 
+        public string GetTeam()
+        {
+            return Team;
+        }
+
         //
         public void HandleResponse(string uInput)
         {
 
             //check input is either team declarration or a selected colour
-
+            valid = false;
 
             TextLogger tl = new TextLogger();
             string input = uInput.ToLower();
             //im aware this check is also done in the validation but i needed a way to seperate a team change command from a colour conversion request. ill try and look in to smartening this up later.
-            if(colours.Count == 0)
+            if (colours.Count == 0)
             {
                 colours = col.GetColours();
-            } 
+            }
             if (input == "rgb" || input == "hex")
             {
                 SetTeam(input);
-            }else 
-            for (int i = 0; i < colours.Count; i++)
-                if (input == colours[i].GetName())
+                valid = true;
+            }
+            else
+                for (int i = 0; i < colours.Count; i++)
                 {
-                    if (Team == "rgb")
+                    if (input == colours[i].GetName())
                     {
-                        Console.WriteLine($"");
-                        Console.WriteLine($"The RGB value for {input} is {colours[i].GetRgbValue()}");
-                        Console.WriteLine($"");
+                        if (Team == "rgb")
+                        {
+                            Console.WriteLine($"");
+                            Console.WriteLine($"The RGB value for {input} is {colours[i].GetRgbValue()}");
+                            Console.WriteLine($"");
                             tl.LogConversion($"converted { colours[i].GetName()} to RGB ");
+                            valid = true;
                         }
-                    else if (Team == "hex")
-                    {
-                        Console.WriteLine($"");
-                        Console.WriteLine($"The Hex value for {input} is {colours[i].GetHexValue()}");
-                        Console.WriteLine($"");
+                        else if (Team == "hex")
+                        {
+                            Console.WriteLine($"");
+                            Console.WriteLine($"The Hex value for {input} is {colours[i].GetHexValue()}");
+                            Console.WriteLine($"");
                             tl.LogConversion($"converted { colours[i].GetName()} to Hex ");
-                    }        
+                            valid = true;
+                        }
+                    }
                 }
+            if (valid == false)
+            {
+                tl.LogConversion($"Invalid Input given");
+                GiveInstruction("InputError");
+            }
         }
 
 

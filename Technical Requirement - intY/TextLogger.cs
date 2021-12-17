@@ -10,6 +10,7 @@ namespace Technical_Requirement___intY
     public class TextLogger
     {
         private string filePath = "";
+        private string logTest = "";
 
         //Takes the conversion string and adds it to the log file with a timestamp.
         public void LogConversion(string conversion)
@@ -30,6 +31,11 @@ namespace Technical_Requirement___intY
             string fileName = "\\logs.txt";
 
             filePath = thisDirectory + fileName;
+        }
+
+        public string GetLog()
+        {
+            return logTest;
         }
 
 
